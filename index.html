@@ -10,19 +10,22 @@
       <img src="https://via.placeholder.com/163x35" width="163" height="35" alt="Логотип интернет магазина DEVICE">
     </a>
     <form action="https://echo.htmlacademy.ru" method="get">
+      <button type="submit">Поиск</button>
       <input type="text" name="search" value="" placeholder="Поиск по сайту" id="search-form">
       <label for="search-form"><span class="visually-hidden">Поиск</span></label>
     </form>
-    <a href="#">Войти</a>
-    <a href="#">Сравнить</a>
-    <a href="#">Корзина</a>
+    <ul>
+      <li><a href="#">Войти</a></li>
+      <li><a href="#">Сравнить</a></li>
+      <li><a href="#">Корзина</a></li>
+    </ul>
     <nav>
       <ul>
         <li>
-          <a href="catalog.html">Каталог товаров</a>
+          <a href="#">Каталог товаров</a>
           <ul>
             <li><a href="#">Виртуальная реальность</a></li>
-            <li><a href="#">Моноподы для селфи</a></li>
+            <li><a href="catalog.html">Моноподы для селфи</a></li>
             <li><a href="#">Экшн-камеры</a></li>
             <li><a href="#">Фитнес-браслеты</a></li>
             <li><a href="#">Умные часы</a></li>
@@ -45,7 +48,7 @@
           <img src="https://via.placeholder.com/384x486" width="384" height="486" alt="Селфи-палка">
           <b>Делай селфи, как Бен Стиллер!</b>
           <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-          <a>Подробнее</a>
+          <a href="#">Подробнее</a>
           <dl>
             <dt>Длина палки</dt>
             <dd>8,5 м</dd>
@@ -60,7 +63,7 @@
           <img src="https://via.placeholder.com/345x485" width="345" height="485" alt="Фитнес-браслет">
           <b>Худеем правильно!</b>
           <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-          <a>Подробнее</a>
+          <a href="#">Подробнее</a>
           <dl>
             <dt>Без подзарядки</dt>
             <dd>48 часов</dd>
@@ -71,7 +74,7 @@
           <img src="https://via.placeholder.com/526x334" width="526" height="334" alt="Квадрокоптер">
           <b>Порхает как бабочка, жалит как пчела!</b>
           <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-          <a>Подробнее</a>
+          <a href="#">Подробнее</a>
           <dl>
             <dt>Дальность полета</dt>
             <dd>800 м</dd>
@@ -84,24 +87,14 @@
 
     <section>
       <h2 class="visually-hidden">Категории товаров</h2>
-      <div>
-        <h3>Виртуальная реальность</h3>
-      </div>
-      <div>
-        <h3>Моноподы для селфи</h3>
-      </div>
-      <div>
-        <h3>Экшн-камеры</h3>
-      </div>
-      <div>
-        <h3>Фитнес-браслеты</h3>
-      </div>
-      <div>
-        <h3>Умные часы</h3>
-      </div>
-      <div>
-        <h3>Квадрокоптеры</h3>
-      </div>
+      <ul>
+        <li><a href="#"><h3>Виртуальная реальность</h3></a></li>
+        <li><a href="catalog.html"><h3>Моноподы для селфи</h3></a></li>
+        <li><a href="#"><h3>Экшн-камеры</h3></a></li>
+        <li><a href="#"><h3>Фитнес-браслеты</h3></a></li>
+        <li><a href="#"><h3>Умные часы</h3></a></li>
+        <li><a href="#"><h3>Квадрокоптеры</h3></a></li>
+      </ul>
     </section>
 
     <section>
@@ -129,10 +122,12 @@
 
     <section>
       <h2 class="visually-hidden">Производители</h2>
-      <img src="https://via.placeholder.com/260x110" width="260" height="110" alt="DJI">
-      <img src="https://via.placeholder.com/260x110" width="260" height="110" alt="SP Gadgets">
-      <img src="https://via.placeholder.com/260x110" width="260" height="110" alt="GoPro">
-      <img src="https://via.placeholder.com/260x110" width="260" height="110" alt="VIVE">
+      <ul>
+        <li><a href="#"><img src="https://via.placeholder.com/260x110" width="260" height="110" alt="DJI"></a></li>
+        <li><a href="#"><img src="https://via.placeholder.com/260x110" width="260" height="110" alt="SP Gadgets"></a></li>
+        <li><a href="#"><img src="https://via.placeholder.com/260x110" width="260" height="110" alt="GoPro"></a></li>
+        <li><a href="#"><img src="https://via.placeholder.com/260x110" width="260" height="110" alt="VIVE"></a></li>
+      </ul>
     </section>
 
     <section>
@@ -159,6 +154,12 @@
     <a>
       <img src="https://via.placeholder.com/163x35" width="163" height="35" alt="Логотип интернет магазина DEVICE">
     </a>
+    <ul>
+      <li><a href="#">Войти</a></li>
+      <li><a href="#">Сравнить</a></li>
+      <li><a href="#">Корзина</a></li>
+    </ul>
+
     <address>г. Москва, ул. Строителей, 15</address>
 
     <section>
@@ -176,26 +177,24 @@
       </ul>
     </section>
 
+    <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
+
     <section>
       <h2>Социальные сети</h2>
       <ul>
         <li>
-          <a href="#">Facebook</a>
+          <a href="#" target="_blank">Facebook</a>
         </li>
         <li>
-          <a href="#">Instagram</a>
+          <a href="#" target="_blank">Instagram</a>
         </li>
         <li>
-          <a href="#">Twitter</a>
+          <a href="#" target="_blank">Twitter</a>
         </li>
       </ul>
     </section>
 
-    <a href="#">Войти</a>
-    <a href="#">Сравнить</a>
-    <a href="#">Корзина</a>
-    <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
-    <a href="https://htmlacademy.ru/intensive/htmlcss">Разработано HTML Academy</a>
+    <a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">Разработано HTML Academy</a>
   </footer>
 
   <section>
