@@ -4,6 +4,7 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: local('Gilroy Light'), local('Gilroy-Light'),
   url('../fonts/gilroylight.woff2') format("woff2"),
   url('../fonts/gilroylight.woff') format("woff");
@@ -13,6 +14,7 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 800;
+  font-display: swap;
   src: local('Gilroy Extra Bold'), local('Gilroy-Extra-Bold'), local('Gilroy Extra-Bold'),
   url('../fonts/gilroyextrabold.woff2') format("woff2"),
   url('../fonts/gilroyextrabold.woff') format("woff");
@@ -43,7 +45,7 @@
 /* Global */
 
 body {
-  min-width: 1160px;
+  min-width: 1240px;
   margin: 0;
   padding: 0;
 
@@ -62,6 +64,12 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 /* Header */
@@ -182,19 +190,28 @@ img {
 
 .popular-products-list {
   list-style: none;
-
-  counter-reset: popular-item;
 }
 
 .popular-products-item::before {
-  counter-increment: popular-item;
-  content: "0" counter(popular-item);
+  content: "";
 
   font-weight: 800;
   font-size: 179px;
   line-height: 219px;
   text-transform: uppercase;
   color: #ddd; /*Временно для наглядности*/
+}
+
+.popular-products-item:nth-child(1)::before {
+  content: "01";
+}
+
+.popular-products-item:nth-child(2)::before {
+  content: "02";
+}
+
+.popular-products-item:nth-child(3)::before {
+  content: "03";
 }
 
 .popular-products-slogan {
