@@ -899,7 +899,7 @@ img {
 .pagination-list {
   display: flex;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 78px;
   padding: 0;
 
   list-style: none;
@@ -908,8 +908,8 @@ img {
 }
 
 .pagination-item {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .pagination-item a {
