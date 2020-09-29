@@ -9,83 +9,89 @@
 </head>
 <body class="page-body">
   <header class="main-header container">
-    <a class="main-logo-header">
-      <img src="img/logo-header.svg" width="163" height="35" alt="Логотип интернет магазина DEVICE">
-    </a>
-    <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-      <input type="text" name="search" value="" placeholder="Поиск по сайту" id="search-form">
-      <button type="submit">Найти</button>
-      <label for="search-form"><span class="visually-hidden">Поиск</span></label>
-    </form>
-    <ul class="user-links-list-header">
-      <li class="user-links-item push"><a class="login-link" href="#">Войти</a></li>
-      <li class="user-links-item"><a class="compare-link" href="#">Сравнить</a></li>
-      <li class="user-links-item"><a class="cart-link" href="#">Корзина</a></li>
-    </ul>
-    <nav class="main-navigation">
-      <ul class="main-navigation-list">
-        <li class="main-navigation-item push">
-          <a href="#">Каталог товаров</a>
-          <ul class="main-navigation-submenu-list temporary-hidden">
-            <li class="main-navigation-submenu-item"><a href="#">Виртуальная реальность</a></li>
-            <li class="main-navigation-submenu-item"><a href="catalog.html">Моноподы для селфи</a></li>
-            <li class="main-navigation-submenu-item"><a href="#">Экшн-камеры</a></li>
-            <li class="main-navigation-submenu-item"><a href="#">Фитнес-браслеты</a></li>
-            <li class="main-navigation-submenu-item"><a href="#">Умные часы</a></li>
-            <li class="main-navigation-submenu-item"><a href="#">Квадрокоптер</a></li>
-          </ul>
-        </li>
-        <li class="main-navigation-item"><a href="#">Доставка</a></li>
-        <li class="main-navigation-item"><a href="#">Гарантия</a></li>
-        <li class="main-navigation-item"><a href="#">Контакты</a></li>
+    <div class="wrapper">
+      <a class="main-logo-header">
+        <img src="img/logo-header.svg" width="163" height="35" alt="Логотип интернет магазина DEVICE">
+      </a>
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+        <input type="text" name="search" value="" placeholder="Поиск по сайту" id="search-form">
+        <button type="submit">Найти</button>
+        <label for="search-form"><span class="visually-hidden">Поиск</span></label>
+      </form>
+      <ul class="user-links-list-header">
+        <li class="user-links-item"><a class="login-link" href="#">Войти</a></li>
+        <li class="user-links-item push"><a class="compare-link" href="#">Сравнить</a></li>
+        <li class="user-links-item"><a class="cart-link" href="#">Корзина</a></li>
       </ul>
-    </nav>
+      <nav class="main-navigation">
+        <ul class="main-navigation-list">
+          <li class="main-navigation-item push">
+            <a href="#">Каталог товаров</a>
+            <ul class="main-navigation-submenu-list temporary-hidden">
+              <li class="main-navigation-submenu-item"><a href="#">Виртуальная реальность</a></li>
+              <li class="main-navigation-submenu-item"><a href="catalog.html">Моноподы для селфи</a></li>
+              <li class="main-navigation-submenu-item"><a href="#">Экшн-камеры</a></li>
+              <li class="main-navigation-submenu-item"><a href="#">Фитнес-браслеты</a></li>
+              <li class="main-navigation-submenu-item"><a href="#">Умные часы</a></li>
+              <li class="main-navigation-submenu-item"><a href="#">Квадрокоптер</a></li>
+            </ul>
+          </li>
+          <li class="main-navigation-item"><a href="#">Доставка</a></li>
+          <li class="main-navigation-item"><a href="#">Гарантия</a></li>
+          <li class="main-navigation-item"><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+
   </header>
 
   <main>
     <section class="popular-products container">
-      <h2 class="visually-hidden">Популярные товары</h2>
-      <ol class="popular-products-list">
-        <li class="popular-products-item">
-          <h3 class="visually-hidden">Селфи-палка</h3>
-          <img class="popular-products-image" src="img/popular-monopod.png" width="384" height="486" alt="Селфи-палка">
-          <b class="popular-products-slogan">Делай селфи,<br> как Бен Стиллер!</b>
-          <p class="popular-products-description">Самая длинная палка для селфи доступна в нашем магазине.<br> Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-          <a class="button popular-products-button" href="#">Подробнее</a>
-          <dl class="popular-products-characteristics">
-            <dt class="characteristics-key">Длина палки</dt>
-            <dd class="characteristics-value">8,5 м</dd>
-            <dt class="characteristics-key">Вес палки</dt>
-            <dd class="characteristics-value">5 кг</dd>
-            <dt class="characteristics-key">Материал</dt>
-            <dd class="characteristics-value">Карбон</dd>
-          </dl>
-        </li>
-        <li class="popular-products-item temporary-hidden">
-          <h3 class="visually-hidden">Фитнес-браслет</h3>
-          <img class="popular-products-image" src="img/popular-bracelet.png" width="345" height="483" alt="Фитнес-браслет">
-          <b class="popular-products-slogan">Худеем правильно!</b>
-          <p class="popular-products-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-          <a class="button popular-products-button" href="#">Подробнее</a>
-          <dl class="popular-products-characteristics">
-            <dt class="characteristics-key">Без подзарядки</dt>
-            <dd class="characteristics-value">48 часов</dd>
-          </dl>
-        </li>
-        <li class="popular-products-item temporary-hidden">
-          <h3 class="visually-hidden">Квадрокоптер</h3>
-          <img class="popular-products-image" src="img/popular-quadcopter.png" width="526" height="334" alt="Квадрокоптер">
-          <b class="popular-products-slogan">Порхает как бабочка, жалит как пчела!</b>
-          <p class="popular-products-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-          <a class="button popular-products-button" href="#">Подробнее</a>
-          <dl class="popular-products-characteristics">
-            <dt class="characteristics-key">Дальность полета</dt>
-            <dd class="characteristics-value">800 м</dd>
-            <dt class="characteristics-key">Радиус поражения</dt>
-            <dd class="characteristics-value">50 м</dd>
-          </dl>
-        </li>
-      </ol>
+      <div class="wrapper">
+        <h2 class="visually-hidden">Популярные товары</h2>
+        <ol class="popular-products-list">
+          <li class="popular-products-item">
+            <h3 class="visually-hidden">Селфи-палка</h3>
+            <img class="popular-products-image" src="img/popular-monopod.png" width="384" height="486" alt="Селфи-палка">
+            <b class="popular-products-slogan">Делай селфи,<br> как Бен Стиллер!</b>
+            <p class="popular-products-description">Самая длинная палка для селфи доступна в нашем магазине.<br> Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+            <a class="button popular-products-button" href="#">Подробнее</a>
+            <dl class="popular-products-characteristics">
+              <dt class="characteristics-key">Длина палки</dt>
+              <dd class="characteristics-value">8,5 м</dd>
+              <dt class="characteristics-key">Вес палки</dt>
+              <dd class="characteristics-value">5 кг</dd>
+              <dt class="characteristics-key">Материал</dt>
+              <dd class="characteristics-value">Карбон</dd>
+            </dl>
+          </li>
+          <li class="popular-products-item temporary-hidden">
+            <h3 class="visually-hidden">Фитнес-браслет</h3>
+            <img class="popular-products-image" src="img/popular-bracelet.png" width="345" height="483" alt="Фитнес-браслет">
+            <b class="popular-products-slogan">Худеем правильно!</b>
+            <p class="popular-products-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+            <a class="button popular-products-button" href="#">Подробнее</a>
+            <dl class="popular-products-characteristics">
+              <dt class="characteristics-key">Без подзарядки</dt>
+              <dd class="characteristics-value">48 часов</dd>
+            </dl>
+          </li>
+          <li class="popular-products-item temporary-hidden">
+            <h3 class="visually-hidden">Квадрокоптер</h3>
+            <img class="popular-products-image" src="img/popular-quadcopter.png" width="526" height="334" alt="Квадрокоптер">
+            <b class="popular-products-slogan">Порхает как бабочка, жалит как пчела!</b>
+            <p class="popular-products-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+            <a class="button popular-products-button" href="#">Подробнее</a>
+            <dl class="popular-products-characteristics">
+              <dt class="characteristics-key">Дальность полета</dt>
+              <dd class="characteristics-value">800 м</dd>
+              <dt class="characteristics-key">Радиус поражения</dt>
+              <dd class="characteristics-value">50 м</dd>
+            </dl>
+          </li>
+        </ol>
+      </div>
+
     </section>
 
     <section class="categories container">
@@ -129,7 +135,7 @@
     <section class="manufacturer container">
       <h2 class="visually-hidden">Производители</h2>
       <ul class="manufacturer-list">
-        <li class="manufacturer-item"><a href="#"><img src="img/manufacturer-color-dji.png" width="260" height="100" alt="DJI"></a></li>
+        <li class="manufacturer-item dji"><a href="#"><img src="img/manufacturer-color-dji.png" width="260" height="100" alt="DJI"></a></li>
         <li class="manufacturer-item"><a href="#"><img src="img/manufacturer-color-sp-gadgets.png" width="260" height="100" alt="SP Gadgets"></a></li>
         <li class="manufacturer-item"><a href="#"><img src="img/manufacturer-color-gopro.png" width="260" height="100" alt="GoPro"></a></li>
         <li class="manufacturer-item"><a href="#"><img src="img/manufacturer-color-vive.png" width="260" height="100" alt="VIVE"></a></li>

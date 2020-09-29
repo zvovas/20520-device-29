@@ -9,38 +9,41 @@
 </head>
 <body class="page-body">
   <header class="main-header inside-header container">
-    <a class="main-logo-header" href="index.html">
-      <img src="img/logo-header.svg" width="163" height="35" alt="Логотип интернет магазина DEVICE">
-    </a>
-    <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-      <input type="text" name="search" value="" placeholder="Поиск по сайту" id="search-form">
-      <button type="submit">Найти</button>
-      <label for="search-form"><span class="visually-hidden">Поиск</span></label>
-    </form>
-    <ul class="user-links-list-header">
-      <li class="user-links-item"><a class="profile-link" href="#">Валентин Петухов</a></li>
-      <li class="user-links-item push"><a class="logout-link" href="#">Выйти</a></li>
-      <li class="user-links-item"><a class="compare-link" href="#">Сравнить</a></li>
-      <li class="user-links-item"><a class="cart-link" href="#">Корзина</a></li>
-    </ul>
-    <nav class="main-navigation">
-      <ul class="main-navigation-list">
-        <li class="main-navigation-item push">
-          <a href="#">Каталог товаров</a>
-          <ul class="main-navigation-submenu-list temporary-hidden">
-            <li class="main-navigation-submenu-item"><a href="#">Виртуальная реальность</a></li>
-            <li class="main-navigation-submenu-item"><a href="catalog.html">Моноподы для селфи</a></li>
-            <li class="main-navigation-submenu-item"><a href="#">Экшн-камеры</a></li>
-            <li class="main-navigation-submenu-item"><a href="#">Фитнес-браслеты</a></li>
-            <li class="main-navigation-submenu-item"><a href="#">Умные часы</a></li>
-            <li class="main-navigation-submenu-item"><a href="#">Квадрокоптер</a></li>
-          </ul>
-        </li>
-        <li class="main-navigation-item"><a href="#">Доставка</a></li>
-        <li class="main-navigation-item"><a href="#">Гарантия</a></li>
-        <li class="main-navigation-item"><a href="#">Контакты</a></li>
+    <div class="wrapper">
+      <a class="main-logo-header" href="index.html">
+        <img src="img/logo-header.svg" width="163" height="35" alt="Логотип интернет магазина DEVICE">
+      </a>
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+        <input type="text" name="search" value="" placeholder="Поиск по сайту" id="search-form">
+        <button type="submit">Найти</button>
+        <label for="search-form"><span class="visually-hidden">Поиск</span></label>
+      </form>
+      <ul class="user-links-list-header">
+        <li class="user-links-item"><a class="profile-link" href="#">Валентин Петухов</a></li>
+        <li class="user-links-item"><a class="logout-link" href="#">Выйти</a></li>
+        <li class="user-links-item push"><a class="compare-link" href="#">Сравнить</a></li>
+        <li class="user-links-item"><a class="cart-link" href="#">Корзина</a></li>
       </ul>
-    </nav>
+      <nav class="main-navigation">
+        <ul class="main-navigation-list">
+          <li class="main-navigation-item push">
+            <a href="#">Каталог товаров</a>
+            <ul class="main-navigation-submenu-list temporary-hidden">
+              <li class="main-navigation-submenu-item"><a href="#">Виртуальная реальность</a></li>
+              <li class="main-navigation-submenu-item"><a href="catalog.html">Моноподы для селфи</a></li>
+              <li class="main-navigation-submenu-item"><a href="#">Экшн-камеры</a></li>
+              <li class="main-navigation-submenu-item"><a href="#">Фитнес-браслеты</a></li>
+              <li class="main-navigation-submenu-item"><a href="#">Умные часы</a></li>
+              <li class="main-navigation-submenu-item"><a href="#">Квадрокоптер</a></li>
+            </ul>
+          </li>
+          <li class="main-navigation-item"><a href="#">Доставка</a></li>
+          <li class="main-navigation-item"><a href="#">Гарантия</a></li>
+          <li class="main-navigation-item"><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+
   </header>
 
   <main>
@@ -78,7 +81,7 @@
           </fieldset>
           <fieldset class="fieldset-color">
             <legend>Цвет</legend>
-            <ul class="filter-color">
+            <ul class="filter-color-list">
               <li class="filter-option">
                 <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" id="filter-color-black" name="color-black" checked>
                 <label for="filter-color-black">Чёрный</label>
@@ -103,7 +106,7 @@
           </fieldset>
           <fieldset class="fieldset-bluetooth">
             <legend>Bluetooth</legend>
-            <ul class="filter-bluetooth">
+            <ul class="filter-bluetooth-list">
               <li class="filter-option">
                 <input type="radio" class="visually-hidden filter-input filter-input-radio" id="filter-bluetooth-yes" name="bluetooth" value="bluetooth-yes" checked>
                 <label for="filter-bluetooth-yes">Есть</label>
@@ -172,7 +175,7 @@
             </li>
           </ul>
           <ul class="pagination-list catalog-container">
-            <li class="pagination-item previous disabled"><a>Назад</a></li>
+            <li class="pagination-item previous"><a>Назад</a></li>
             <li class="pagination-item active"><a>1</a></li>
             <li class="pagination-item"><a href="#">2</a></li>
             <li class="pagination-item"><a href="#">3</a></li>
