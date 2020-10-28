@@ -22,7 +22,7 @@
       <li class="user-links-item"><a class="profile-link" href="#">Валентин Петухов</a></li>
       <li class="user-links-item user-links-item-logout"><a class="logout-link" href="#">Выйти</a></li>
       <li class="user-links-item push"><a class="compare-link" href="#">Сравнить</a></li>
-      <li class="user-links-item"><a class="cart-link" href="#">Корзина</a></li>
+    <li class="user-links-item"><a class="cart-link" href="#">Корзина</a></li>
     </ul>
     <nav class="main-navigation">
       <ul class="main-navigation-list">
@@ -65,8 +65,8 @@
           <div class="range-filter">
             <div class="scale">
               <div class="bar"></div>
-              <div class="toggle toggle-min" tabindex="0"></div>
-              <div class="toggle toggle-max" tabindex="0"></div>
+              <div class="toggle toggle-min" tabindex="0" aria-label="Минимальная цена"></div>
+              <div class="toggle toggle-max" tabindex="0" aria-label="Максимальная цена"></div>
             </div>
             <div class="price-controls">
               <label class="min-price">
@@ -135,7 +135,7 @@
             <li class="sorting-item"><a href="#">По типу</a></li>
             <li class="sorting-item"><a href="#">По популярности</a></li>
             <li class="sorting-item sort-up"><a href="#"><span class="visually-hidden">По возрастанию</span></a></li>
-            <li class="sorting-item sort-down active"><a href="#"><span class="visually-hidden">По убыванию</span></a></li>
+            <li class="sorting-item sort-down active"><a href="#" tabindex="-1"><span class="visually-hidden">По убыванию</span></a></li>
           </ul>
         </div>
       </section>
@@ -145,8 +145,8 @@
           <li class="catalog-item">
             <div class="image-wrapper">
               <div class="product-buttons-wrapper">
-                <button class="button add-cart-button" type="button" aria-label="Добавить Любительскую селфи-палку в корзину" href="#">В корзину</button>
-                <button class="add-compare" type="button" aria-label="Добавить Любительскую селфи-палку к сравнению" href="#">Добавить к сравнению</button>
+                <a class="button add-cart-button" aria-label="Добавить Любительскую селфи-палку в корзину" href="#">В корзину</a>
+                <a class="add-compare" aria-label="Добавить Любительскую селфи-палку к сравнению" href="#">Добавить к сравнению</a>
               </div>
               <img src="img/product-dilettant.jpg" width="360" height="380" alt="Обычная селфи-палка с закрепленным на ней телефоном">
             </div>
@@ -156,8 +156,8 @@
           <li class="catalog-item">
             <div class="image-wrapper">
               <div class="product-buttons-wrapper">
-                <button class="button add-cart-button" type="button" aria-label="Добавить Профессиональную селфи-палку в корзину" href="#">В корзину</button>
-                <button class="add-compare" type="button" aria-label="Добавить Профессиональную селфи-палку к сравнению" href="#">Добавить к сравнению</button>
+                <a class="button add-cart-button" aria-label="Добавить Профессиональную селфи-палку в корзину" href="#">В корзину</a>
+                <a class="add-compare" aria-label="Добавить Профессиональную селфи-палку к сравнению" href="#">Добавить к сравнению</a>
               </div>
               <img src="img/product-professional.jpg" width="360" height="380" alt="Профессиональная селфи-палка в сложенном состоянии">
             </div>
@@ -167,8 +167,8 @@
           <li class="catalog-item">
             <div class="image-wrapper">
               <div class="product-buttons-wrapper">
-                <button class="button add-cart-button" type="button" aria-label="Добавить Непотопляемую селфи-палку в корзину" href="#">В корзину</button>
-                <button class="add-compare" type="button" aria-label="Добавить Непотопляемую селфи-палку к сравнению" href="#">Добавить к сравнению</button>
+                <a class="button add-cart-button" aria-label="Добавить Непотопляемую селфи-палку в корзину" href="#">В корзину</a>
+                <a class="add-compare" aria-label="Добавить Непотопляемую селфи-палку к сравнению" href="#">Добавить к сравнению</a>
               </div>
               <img src="img/product-unsinkable.jpg" width="360" height="380" alt="Непотопляемая селфи-палка желтого цвета с закрепленной на ней GoPro">
             </div>
@@ -178,8 +178,8 @@
           <li class="catalog-item">
             <div class="image-wrapper">
               <div class="product-buttons-wrapper">
-                <button class="button add-cart-button" type="button" aria-label="Добавить Селфи-палку «Следуй за мной» в корзину" href="#">В корзину</button>
-                <button class="add-compare" type="button" aria-label="Добавить Селфи-палку «Следуй за мной» к сравнению" href="#">Добавить к сравнению</button>
+                <a class="button add-cart-button" aria-label="Добавить Селфи-палку «Следуй за мной» в корзину" href="#">В корзину</a>
+                <a class="add-compare" aria-label="Добавить Селфи-палку «Следуй за мной» к сравнению" href="#">Добавить к сравнению</a>
               </div>
               <span class="label-new">new</span>
               <img src="img/product-follow-me.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной» в виде человеческой руки с закрепленным на ней телефоном">

@@ -126,7 +126,7 @@
       <div class="container">
         <h2 class="visually-hidden">Сервисы</h2>
         <div class="services-menu">
-          <button class="services-slider active" type="button">Доставка</button>
+          <button class="services-slider active" type="button" tabindex="-1">Доставка</button>
           <button class="services-slider" type="button">Гарантия</button>
           <button class="services-slider" type="button">Кредит</button>
         </div>
@@ -151,10 +151,10 @@
     <section class="manufacturer container">
       <h2 class="visually-hidden">Производители</h2>
       <ul class="manufacturer-list">
-        <li class="manufacturer-item dji"><a href="#"><img src="img/manufacturer-color-dji.png" width="260" height="100" alt="Логотип компании DJI"></a></li>
-        <li class="manufacturer-item"><a href="#"><img src="img/manufacturer-color-sp-gadgets.png" width="260" height="100" alt="Логотип компании SP Gadgets"></a></li>
-        <li class="manufacturer-item"><a href="#"><img src="img/manufacturer-color-gopro.png" width="260" height="100" alt="Логотип компании GoPro"></a></li>
-        <li class="manufacturer-item"><a href="#"><img src="img/manufacturer-color-vive.png" width="260" height="100" alt="Логотип компании VIVE"></a></li>
+        <li class="manufacturer-item dji"><a href="#" aria-label="DJI"><img src="img/manufacturer-color-dji.png" width="260" height="100" alt="Логотип компании DJI"></a></li>
+        <li class="manufacturer-item"><a href="#" aria-label="SP Gadgets"><img src="img/manufacturer-color-sp-gadgets.png" width="260" height="100" alt="Логотип компании SP Gadgets"></a></li>
+        <li class="manufacturer-item"><a href="#" aria-label="GoPro"><img src="img/manufacturer-color-gopro.png" width="260" height="100" alt="Логотип компании GoPro"></a></li>
+        <li class="manufacturer-item"><a href="#" aria-label="VIVE"><img src="img/manufacturer-color-vive.png" width="260" height="100" alt="Логотип компании VIVE"></a></li>
       </ul>
     </section>
 
@@ -174,7 +174,7 @@
       <section class="contacts section-container">
         <h2 class="section-heading contacts-heading">Контакты</h2>
         <p class="section-paragraph contacts-description">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-        <a class="contacts-map" href="#"><img src="img/contacts-map.jpg" width="560" height="222" alt="г. Москва, ул. Строителей, 15"></a>
+        <a class="contacts-map" href="#"  aria-label="Открыть модальное окно с интерактивной картой"><img src="img/contacts-map.jpg" width="560" height="222" alt="г. Москва, ул. Строителей, 15"></a>
         <a class="button contacts-button" href="#">Напишите нам</a>
       </section>
     </div>
@@ -260,7 +260,7 @@
       </ul>
       <button class="button write-us-button" type="submit">Отправить</button>
     </form>
-    <button class="modal-close" type="button" aria-label="Закрыть"></button>
+    <button class="modal-close" type="reset" aria-label="Закрыть"></button>
   </section>
 
   <section  class="modal modal-map">
