@@ -95,8 +95,6 @@ const sliderClickHandler = function (sliderArea, sliderButton, slide) {
   })
 }
 
-
-
 // Popular Products Slider
 
 const sliderPopular = document.querySelector('.popular-products');
